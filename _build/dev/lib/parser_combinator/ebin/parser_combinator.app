@@ -1,0 +1,1 @@
+{application,parser_combinator,[{modules,['Elixir.ParserCombinator','Elixir.ParserCombinator.Core','Elixir.ParserCombinator.Extras','Elixir.ParserCombinator.JSON']},{optional_applications,[]},{applications,[kernel,stdlib,elixir,logger]},{description,"parser_combinator"},{registered,[]},{vsn,"0.1.0"}]}.

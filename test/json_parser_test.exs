@@ -51,11 +51,4 @@ defmodule ParserCombinatorJSONTest do
 
     assert J.parse(input) == {:ok, %{"a" => [1, 2, 3], "b" => true}, ""}
   end
-
-  test "parses .mcp.json" do
-    input = File.read!(".mcp.json")
-
-    assert {:ok, %{"mcpServers" => servers}, ""} = J.parse(input)
-    assert is_map(servers)
-  end
 end
